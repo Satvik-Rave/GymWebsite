@@ -1,0 +1,33 @@
+body{background-color: black;}
+#carouselExampleControls{width:56rem;margin: auto auto;}
+.d-block{width:55rem;height:28rem;}
+.bg-light{color: red;}
+.content {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 98.3%;
+    text-align: center;
+    padding: 160px;
+  }
+  .four-card{
+      padding-left: 23%;
+      padding-right: 23%;
+      display: grid;
+      grid-template-columns: auto auto;
+      
+  }
+  .card{
+      padding: 1rem;
+      margin: 55px;
+  }
+  .btn-success{
+      margin: auto auto;
+      display: flex;
+  }
+  .content h1{
+    background-color: rgb(0,0,0,0.7);
+  }
+  .content p{
+    background-color: rgb(0,0,0,0.7);
+}
